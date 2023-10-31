@@ -9,7 +9,6 @@ Qurilmangizga mos paddlepaddle versiyasini [paddlepaddle.org.cn](https://www.pad
 
 paddlepaddle ishlashi uchun [nccl](https://developer.nvidia.com/nccl/nccl-download) o'rnatilishi kerak ([qo'llanma](https://docs.nvidia.com/deeplearning/nccl/install-guide/index.html)):
 ```shell
-# Ubuntu22.04
 $ wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-keyring_1.0-1_all.deb
 $ sudo dpkg -i cuda-keyring_1.0-1_all.deb
 $ sudo apt-get update
