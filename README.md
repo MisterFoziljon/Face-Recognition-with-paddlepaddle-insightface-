@@ -1,12 +1,22 @@
 ### paddlepaddle yordamida face recognition dasturini ishlab chiqish
 
-#### **Requirements:**
-Qurilmangizga mos requirementlarni [paddlepaddle.org.cn](https://www.paddlepaddle.org.cn/en/install/quick?docurl=/documentation/docs/en/install/pip/linux-pip_en.html) saytidan topishingiz mumkin.
+#### **Kerakli kutubxonalar:**
+Qurilmangizga mos paddlepaddle versiyasini [paddlepaddle.org.cn](https://www.paddlepaddle.org.cn/en/install/quick?docurl=/documentation/docs/en/install/pip/linux-pip_en.html) saytidan topishingiz mumkin.
 ```python
  pip install paddlepaddle-gpu
  ...
 ```
 
+paddlepaddle ishlashi uchun [nccl](https://docs.nvidia.com/deeplearning/nccl/install-guide/index.html) o'rnatilishi kerak:
+```shell
+# Ubuntu22.04
+$ wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-keyring_1.0-1_all.deb
+$ sudo dpkg -i cuda-keyring_1.0-1_all.deb
+$ sudo apt-get update
+$ sudo apt install libnccl2 libnccl-dev
+```
+
 #### **Qo'llanma:**
-* Environments: [github](https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.1/docs/tutorials/INSTALL.md)
-* Usage: [github](https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.1/docs/tutorials/INSTALL.md)
+* Kutubxonalarni o'rnatish bo'yicha: [github](https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.1/docs/tutorials/INSTALL.md)
+* Train bo'yicha: [github](https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.1/docs/tutorials/INSTALL.md)
+* Qo'llash bo'yicha: [github](https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.1/docs/tutorials/INSTALL.md)
