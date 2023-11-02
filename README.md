@@ -15,6 +15,13 @@ $ sudo apt-get update
 $ sudo apt install libnccl2 libnccl-dev
 ```
 
+paddle muvaffaqiyatli ishlashini quyidagi kod yordamida tekshirib olishingiz mumkin:
+```shell
+import paddle
+paddle.utils.run_check()
+```
+
+
 #### **Qo'llanma:**
 * Kutubxonalarni o'rnatish bo'yicha: [github](https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.1/docs/tutorials/INSTALL.md)
 * Train bo'yicha: [github](https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.1/docs/tutorials/INSTALL.md)
