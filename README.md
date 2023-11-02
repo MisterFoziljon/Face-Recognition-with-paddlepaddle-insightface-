@@ -16,7 +16,7 @@ $ sudo apt install libnccl2 libnccl-dev
 ```
 
 paddle muvaffaqiyatli ishlashini quyidagi kod yordamida tekshirib olishingiz mumkin:
-```shell
+```python
 import paddle
 paddle.utils.run_check()
 ```
