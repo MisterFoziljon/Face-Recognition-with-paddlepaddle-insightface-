@@ -1,6 +1,6 @@
-### paddlepaddle yordamida face recognition dasturini ishlab chiqish
+## paddlepaddle yordamida face recognition dasturini ishlab chiqish
 
-#### **Kerakli kutubxonalar:**
+### **Kerakli kutubxonalar:**
 Qurilmangizga mos ```paddlepaddle``` versiyasini [paddlepaddle.org.cn](https://www.paddlepaddle.org.cn/en/install/quick?docurl=/documentation/docs/en/install/pip/linux-pip_en.html) saytidan topishingiz mumkin.
 ```python
  pip install paddlepaddle-gpu
@@ -23,7 +23,7 @@ import paddle
 paddle.utils.run_check()
 ```
 
-#### **Dataset:**
+### **Dataset:**
 * Tayyor dataset - [Baidu](https://github.com/deepinsight/insightface/tree/master/recognition/_datasets_) va [GoogleDrive](https://github.com/deepinsight/insightface/tree/master/recognition/_datasets_)ga joylashtirilgan.
   Datasetni trainga tayyorlash uchun [link](https://github.com/deepinsight/insightface/tree/master/recognition/arcface_paddle#3-data-preparation) (Data Preparation bo'limiga qarang).
 
