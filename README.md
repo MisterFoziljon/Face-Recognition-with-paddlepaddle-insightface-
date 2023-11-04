@@ -34,6 +34,7 @@ paddle.utils.run_check()
 
 * Shaxsiy datasetlar
    - dataset nomli folder yarating.
+  
      ```console
      dataset
      |_ images
@@ -43,8 +44,24 @@ paddle.utils.run_check()
      |  |_ personN
      |_ labels.txt
      ```
+     
    - person1, person2, ..., personN nomli folderlarda shu personga tegishli rasmlar joylashtiriladi.
+  
+     ```python
+     # delimiter: "\t" (tabulyatsiya)
+     # labels.txt fayl quyidagicha ko'rinishda bo'lishi kerak:
+     person1/image1.jpg
+     person1/image2.jpg
+     ...
+     person2/image1.jpg
+     person2/image2.jpg
+     ...
+     personN/image1.jpg
+     personN/image2.jpg
+     ...
+     
    - labels.txt faylida har bir rasm uchun yo'l (path) ko'rsatiladi.
+  
      ```python
      # delimiter: "\t" (tabulyatsiya)
      # labels.txt fayl quyidagicha ko'rinishda bo'lishi kerak:
