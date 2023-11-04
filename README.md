@@ -76,4 +76,9 @@ paddle.utils.run_check()
      ...
      ```
   
-  
+    - Build index yordamida datasetni recognition uchun tayyor holatga keltiramiz bu holat index.bin faylga saqlanadi:
+
+    ```cmd
+      python insightface/insightface_paddle --build_index dataset/index.bin --img_dir dataset/images --label dataset/label.txt
+    ```
+
