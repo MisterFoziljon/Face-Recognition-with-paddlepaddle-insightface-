@@ -29,7 +29,9 @@ paddle.utils.run_check()
 * Qo'llash bo'yicha: [github](https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.1/docs/tutorials/INSTALL.md)
 
 #### **Dataset:**
-* Tayyor datasetlar - Baidu yoki GoogleDrive da train uchun tayyor holatda holatda turgan [datasetlar](https://github.com/deepinsight/insightface/tree/master/recognition/_datasets_)i
+* Tayyor datasetlar - Baidu yoki GoogleDrive da train uchun tayyor holatda turgan [datasetlar](https://github.com/deepinsight/insightface/tree/master/recognition/_datasets_)
+  - Dataset yuklab olingandan so'ng quyidagi kodni ishga tushiring:
+    - python tools/mx_recordio_2_images.py --root_dir ms1m-retinaface-t1/ --output_dir MS1M_v3/
 * Shaxsiy datasetlar
    1. dataset folderini yarating.
      ```console
