@@ -29,8 +29,8 @@ paddle.utils.run_check()
 * Qo'llash bo'yicha: [github](https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.1/docs/tutorials/INSTALL.md)
 
 #### **Dataset:**
-* Datasetlar [ro'yxat](https://github.com/deepinsight/insightface/tree/master/recognition/_datasets_)i
-* Yangi dataset shakllantirish uchun quyidagi amallarni bajaring:
+* Tayyor datasetlar - Baidu yoki GoogleDrive da train uchun tayyor holatda holatda turgan [datasetlar](https://github.com/deepinsight/insightface/tree/master/recognition/_datasets_)i
+* Shaxsiy datasetlar
    1. dataset folderini yarating.
      ```console
      dataset
