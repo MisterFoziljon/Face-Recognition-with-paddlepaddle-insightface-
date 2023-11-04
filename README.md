@@ -29,4 +29,4 @@ paddle.utils.run_check()
 * Qo'llash bo'yicha: [github](https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.1/docs/tutorials/INSTALL.md)
 
 #### **Dataset:**
-* Datasetlar (ro'yxat)[https://github.com/deepinsight/insightface/tree/master/recognition/_datasets_]i
+* Datasetlar [ro'yxat](https://github.com/deepinsight/insightface/tree/master/recognition/_datasets_)i
