@@ -33,7 +33,7 @@ paddle.utils.run_check()
   Datasetni trainga tayyorlash uchun [link](https://github.com/deepinsight/insightface/tree/master/recognition/arcface_paddle#3-data-preparation) (Data Preparation bo'limiga qarang).
 
 * Shaxsiy datasetlar
-   1. dataset nomli folder yarating.
+   - dataset nomli folder yarating.
      ```console
      dataset
      |_ images
@@ -43,8 +43,8 @@ paddle.utils.run_check()
      |  |_ personN
      |_ labels.txt
      ```
-   2. person1, person2, ..., personN nomli folderlarda shu personga tegishli rasmlar joylashtiriladi.
-   3. labels.txt faylida har bir rasm uchun yo'l (path) ko'rsatiladi.
+   - person1, person2, ..., personN nomli folderlarda shu personga tegishli rasmlar joylashtiriladi.
+   - labels.txt faylida har bir rasm uchun yo'l (path) ko'rsatiladi.
      ```python
      # delimiter: "\t" (tabulyatsiya)
      # labels.txt fayl quyidagicha ko'rinishda bo'lishi kerak:
