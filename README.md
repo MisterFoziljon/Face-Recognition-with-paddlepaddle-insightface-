@@ -29,10 +29,11 @@ paddle.utils.run_check()
 * Qo'llash bo'yicha: [github](https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.1/docs/tutorials/INSTALL.md)
 
 #### **Dataset:**
-* Tayyor datasetlar - [Baidu](https://github.com/deepinsight/insightface/tree/master/recognition/_datasets_) yoki [GoogleDrive](https://github.com/deepinsight/insightface/tree/master/recognition/_datasets_)ga joylashtirilgan.
+* Tayyor datasetlar - [Baidu](https://github.com/deepinsight/insightface/tree/master/recognition/_datasets_) va [GoogleDrive](https://github.com/deepinsight/insightface/tree/master/recognition/_datasets_)ga joylashtirilgan.
   Datasetni trainga tayyorlash uchun [link](https://github.com/deepinsight/insightface/tree/master/recognition/arcface_paddle#3-data-preparation) (Data Preparation bo'limiga qarang).
+
 * Shaxsiy datasetlar
-   1. dataset folderini yarating.
+   1. dataset nomli folder yarating.
      ```console
      dataset
      |_ images
@@ -42,9 +43,8 @@ paddle.utils.run_check()
      |  |_ personN
      |_ labels.txt
    ```
-   
-   2. 
- 
+   2. person1, person2, ..., personN nomli folderlarda shu personga tegishli rasmlar joylashtiriladi.
+   3. labels.txt faylida har bir rasm uchun yo'l (path) ko'rsatiladi.
   
   
   
