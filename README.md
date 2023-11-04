@@ -4,7 +4,7 @@
 Qurilmangizga mos ```paddlepaddle``` versiyasini [paddlepaddle.org.cn](https://www.paddlepaddle.org.cn/en/install/quick?docurl=/documentation/docs/en/install/pip/linux-pip_en.html) saytidan topishingiz mumkin.
 ```python
  pip install paddlepaddle-gpu
- ...
+ pip install streamlit
 ```
 
 ```paddlepaddle``` ishlashi uchun [nccl](https://developer.nvidia.com/nccl/nccl-download) o'rnatilishi kerak ([qo'llanma](https://docs.nvidia.com/deeplearning/nccl/install-guide/index.html)):
@@ -23,16 +23,11 @@ import paddle
 paddle.utils.run_check()
 ```
 
-#### **Qo'llanma:**
-* Kutubxonalarni o'rnatish bo'yicha: [github](https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.1/docs/tutorials/INSTALL.md)
-* Train bo'yicha: [github](https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.1/docs/tutorials/INSTALL.md)
-* Qo'llash bo'yicha: [github](https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.1/docs/tutorials/INSTALL.md)
-
 #### **Dataset:**
-* Tayyor datasetlar - [Baidu](https://github.com/deepinsight/insightface/tree/master/recognition/_datasets_) va [GoogleDrive](https://github.com/deepinsight/insightface/tree/master/recognition/_datasets_)ga joylashtirilgan.
+* Tayyor dataset - [Baidu](https://github.com/deepinsight/insightface/tree/master/recognition/_datasets_) va [GoogleDrive](https://github.com/deepinsight/insightface/tree/master/recognition/_datasets_)ga joylashtirilgan.
   Datasetni trainga tayyorlash uchun [link](https://github.com/deepinsight/insightface/tree/master/recognition/arcface_paddle#3-data-preparation) (Data Preparation bo'limiga qarang).
 
-* Shaxsiy datasetlar
+* Shaxsiy dataset
    - dataset nomli folder yarating.
   
      ```console
