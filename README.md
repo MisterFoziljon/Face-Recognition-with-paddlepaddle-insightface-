@@ -32,15 +32,17 @@ paddle.utils.run_check()
 * Datasetlar [ro'yxat](https://github.com/deepinsight/insightface/tree/master/recognition/_datasets_)i
 * Yangi dataset shakllantirish uchun quyidagi amallarni bajaring:
    1. dataset folderini yarating.
-   ```console
-   dataset
-   |_ images
-   |  |_ person1
-   |  |_ person2
-   |  |_ ...
-   |  |_ personN
-   |_ labels.txt
+     ```console
+     dataset
+     |_ images
+     |  |_ person1
+     |  |_ person2
+     |  |_ ...
+     |  |_ personN
+     |_ labels.txt
    ```
+   
+   2. 
  
   
   
