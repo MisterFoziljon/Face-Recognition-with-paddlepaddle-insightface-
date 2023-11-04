@@ -45,7 +45,7 @@ paddle.utils.run_check()
      ```
    2. person1, person2, ..., personN nomli folderlarda shu personga tegishli rasmlar joylashtiriladi.
    3. labels.txt faylida har bir rasm uchun yo'l (path) ko'rsatiladi.
-     ```console
+     ```python
      # delimiter: "\t" (tabulyatsiya)
      # labels.txt fayl quyidagicha ko'rinishda bo'lishi kerak:
      person1/image1.jpg
