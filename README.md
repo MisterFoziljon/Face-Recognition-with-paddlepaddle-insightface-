@@ -23,8 +23,10 @@ import paddle
 paddle.utils.run_check()
 ```
 
-
 #### **Qo'llanma:**
 * Kutubxonalarni o'rnatish bo'yicha: [github](https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.1/docs/tutorials/INSTALL.md)
 * Train bo'yicha: [github](https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.1/docs/tutorials/INSTALL.md)
 * Qo'llash bo'yicha: [github](https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.1/docs/tutorials/INSTALL.md)
+
+#### **Dataset:**
+* Datasetlar (ro'yxat)[https://github.com/deepinsight/insightface/tree/master/recognition/_datasets_]i
