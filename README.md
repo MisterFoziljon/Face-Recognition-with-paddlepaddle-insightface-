@@ -91,4 +91,5 @@ paddle.utils.run_check()
       predictor = face.InsightFace(args)
       predictor.build_index()
     ```
- 
+    
+    - Build index yordamida hosil qilingan ```index.bin``` model predict qilgan natija bilan solishtiriladi. Bunda natijani ```index.bin``` fayl tarkibidagi har bir rasm bilan solishtirib yakuniy xulosa olinadi.
