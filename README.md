@@ -25,9 +25,11 @@ paddle.utils.run_check()
 
 ### **Dataset:**
 * Tayyor dataset - [Baidu](https://github.com/deepinsight/insightface/tree/master/recognition/_datasets_) va [GoogleDrive](https://github.com/deepinsight/insightface/tree/master/recognition/_datasets_)ga joylashtirilgan.
+  - Tayyor datasetlar yordamida face recognition modelini train qilishingiz mumkin.
+  - 
   Datasetni trainga tayyorlash uchun [link](https://github.com/deepinsight/insightface/tree/master/recognition/arcface_paddle#3-data-preparation) (Data Preparation bo'limiga qarang).
 
-* Shaxsiy dataset
+* Shaxsiy dataset (Ushbu dataset sizga kerakli bo'lgan personlarni recognition qilib berish uchun yig'iladi.)
    - dataset nomli folder yarating.
   
      ```console
@@ -71,7 +73,7 @@ paddle.utils.run_check()
      ...
      ```
   
-    - Build index yordamida datasetni recognition uchun tayyor holatga keltiramiz bu holat index.bin faylga saqlanadi:
+    - Build index yordamida datasetni index.bin faylga o'tkazamiz:
     1. cmd yordamida:
     ```cmd
       python insightface/insightface_paddle --build_index dataset/index.bin --img_dir dataset/images --label dataset/label.txt
@@ -92,4 +94,5 @@ paddle.utils.run_check()
       predictor.build_index()
     ```
     
-    - Build index yordamida hosil qilingan ```index.bin``` model predict qilgan natija bilan solishtiriladi. Bunda natijani ```index.bin``` fayl tarkibidagi har bir rasm bilan solishtirib yakuniy xulosa olinadi.
+    - Hosil qilingan ```index.bin``` model predict qilgan natija bilan solishtiriladi. Bunda natijani ```index.bin``` fayl tarkibidagi har bir rasm bilan solishtirib yakuniy xulosa olinadi.
+    -  
